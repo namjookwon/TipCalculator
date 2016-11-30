@@ -37,7 +37,7 @@
         android:elevation="4dp" />
 
     <TextView
-        android:text="TextView"
+        android:text="@string/tip_percentage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/percentTextView"
@@ -57,7 +57,7 @@
         android:layout_gravity="fill_horizontal" />
 
     <TextView
-        android:text="Tip"
+        android:text="@string/tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tipLabelTextView"
@@ -78,7 +78,7 @@
         android:padding="@dimen/textview_padding" />
 
     <TextView
-        android:text="Total"
+        android:text="@string/total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/totalLabelTextView"
